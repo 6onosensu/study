@@ -8,19 +8,39 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 10px;
+    transition: opacity 0.15s;
+  }
+
+  .subsctibe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subsctibe-button:active {
+    opacity: 0.5;
   }
 
 
   .join-button {
     background-color: white;
-    border-color: rgb(0, 131, 175);
+    border-color: rgb(41, 118, 211);
     border-style: solid;
     border-width: 1px;
-    color: rgb(0, 110, 147);
+    color: rgb(41, 118, 211);
     height: 35px;
     width: 61px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
   }
 
 
@@ -36,6 +56,11 @@
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.17);
   }
 
 
@@ -50,6 +75,10 @@
     margin-right: 10px;
   }
 
+  .uber-button:hover {
+    opacity: 0.7;
+  }
+
 
   .amazon-button {
     color: black;
@@ -62,15 +91,33 @@
     font-weight: bold;
     font-size: 13px;
     margin-right: 8px;
+    transition: opacity 0.09s;
   }
 
   .add {
     background-color: rgb(255, 216, 20);
   }
 
+  .add:hover {
+    background-color: rgb(255, 181, 20);
+  }
+
+  .add:active {
+    opacity: 0.7;
+  }
+
   .buy {
     background-color: rgb(255, 164, 28);
   }
+
+  .buy:hover {
+    background-color: rgb(208, 125, 0);
+  }
+
+  .buy:active {
+    opacity: 0.7;
+  }
+
 
 
   .github-button {
@@ -84,6 +131,10 @@
     font-weight: lighter;
     font-size: 13px;
     margin-right: 10px;
+  }
+
+  .github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
 
@@ -104,6 +155,10 @@
     margin-right: 4px;
   }
 
+  .bootstrap1-button:hover {
+    background-color: rgb(93, 64, 138);
+  }
+
   .bootstrap2-button {
     background-color: white;
     color: rgb(108, 117, 125);
@@ -111,22 +166,33 @@
     border-style: solid;
   }
 
+  .bootstrap2-button:hover {
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    color: white;
+  }
+
 
   .linkedin {
     cursor: pointer;
     border-radius: 20px;
     height: 30px;
+    font-size: 12px;
     font-weight: bold;
-    font-size: 11px;
     font-family: Arial, sans-serif;
   }
 
   .link1-button {
     background-color: rgb(10, 102, 194);
     color: white;
+
     width: 180px;
     border: none;
     margin-right: 4px;
+  }
+
+  .link1-button:hover {
+    background-color: rgb(6, 72, 137);
   }
 
   .link2-button {
@@ -137,9 +203,19 @@
     border-style: solid;
   }
 
+  .link2-button:hover {
+    background-color: rgb(224, 239, 255);
+    border-width: 1.7px;
+    color: rgb(6, 72, 137);
+  }
+
 
   .link {
     color: rgb(0, 113, 133);
+  }
+
+  .link:hover {
+    color: rgb(182, 71, 31)
   }
 
   .name {
