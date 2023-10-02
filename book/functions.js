@@ -97,3 +97,36 @@ function findSolution(target) {
   return find(1, "1");
 }
 console.log(findSolution(24));
+
+
+//Rising complexity of functions
+function printZeroPaddedWithLabel(number, label) {
+  let numberSrting = String(number);
+  while (numberSrting.length < 3) {
+    numberSrting = "0" + numberSrting;
+  }
+  console.log(`${numberSrting} ${label}`);
+}
+
+function printFarmInventory(cows, chickens, pigs) {
+  printZeroPaddedWithLabel(cows, "cows");
+  printZeroPaddedWithLabel(chickens, "chickens");
+  printZeroPaddedWithLabel(pigs, "pigs");
+}
+
+
+function zeroPad(number, width) {
+  let string = String(number);
+  while (string.length < 3) {
+    string = "0" + string;
+  }
+  return string;
+}
+
+function printFarmInventory1(cows, chickens, pigs) {
+  console.log(`${zeroPad(cows, 3)} cows`);
+  console.log(`${zeroPad(chickens, 3)} chickens`);
+  console.log(`${zeroPad(pigs, 3)} pigs`);
+}
+
+printFarmInventory1(7, 16, 3);
