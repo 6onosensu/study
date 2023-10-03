@@ -1,0 +1,16 @@
+// "hello", 'hello' //String(double qoutes or single quotes)
+// "He said \"hello\" that it"
+// "hello world 'yup' "
+// 'hello wordl "yup" '
+
+//NUMBERS
+//whole integers: 100, 200, 1
+//floats: 100.1, 200.1, 1.04
+//(floating point numbers/ fractional numbers)
+
+//Boolean //true or false
+
+//NaN //(is NOT a NUMBER)
+
+// Primitive types: null and undefined
+//(It's empty is void.It doesn't have anything. It's void of anything of any value totally)
