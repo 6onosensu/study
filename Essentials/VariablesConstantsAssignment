@@ -1,1 +1,21 @@
 var name = "Lawrence";
+console.log(name);
+name = "Turton";
+console.log(name);
+
+//Different data types to the same variable
+var blank;
+//Emty box
+console.log(blank); //=> undefined
+blank = "new value"; //String
+console.log(blank);
+blank = 100; //Number
+blank = true; //Boolean
+blank = {}; //Object
+blank = []; //an array
+
+//The constant always stays the same
+const lastname = "Turton";
+console.log(lastname);
+// lastname = "Lawrence"; 
+//It won't let you open it back up again and take out the value and put in a new value.
